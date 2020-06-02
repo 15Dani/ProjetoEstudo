@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="Mediatr" Version="8.0.1" />
+    <PackageReference Include="SimpleInjector" Version="4.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnkiGroup.Core\EnkiGroup.Core.csproj" />
+    <ProjectReference Include="..\EnkiGroup.Data\EnkiGroup.Data.csproj" />
+  </ItemGroup>
+
+</Project>
